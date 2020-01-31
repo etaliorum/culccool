@@ -9,24 +9,24 @@ public class Calculator {
         System.out.println(run);
     }
 
-    public float plus(float a, float b){
+    public float plus(float operand1, float operand2){
 
-        return a + b;
+        return operand1 + operand2;
     }
 
-    public float minus(float a, float b){
+    public float minus(float operand1, float operand2){
 
-        return a - b;
+        return operand1 - operand2;
     }
 
-    public float div(float a, float b){
+    public float div(float operand1, float operand2){
 
-        return a / b;
+        return operand1 / operand2;
     }
 
-    public float multiplie(float a, float b) {
+    public float multiplie(float operand1, float operand2) {
 
-        return a * b;
+        return operand1 * operand2;
     }
 
 }
